@@ -4,6 +4,7 @@ import { useCep } from './useCep';
 
 export default function Team() {
   const { errors, handleFormSubmit, handleSubmit, register, inputStyles, buttonStyles, errorMsgStyles } = useCep();
+
   return (
     <>
       <header className="bg-white shadow">
@@ -12,8 +13,8 @@ export default function Team() {
         </div>
       </header>
 
-      <main className="mx-auto">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 mt-4 bg-white">
+      <main className="flex items-center justify-center h-screen bg-gray-200"> {/* Updated this line */}
+        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 bg-white rounded-lg shadow-md">
           <h1 className='font-bold'>
             Dashboard Team - Test Form
           </h1>
