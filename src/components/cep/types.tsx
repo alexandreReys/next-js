@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { schemaForm } from "./schema";
+import { schemaForm } from "@/components/cep/schema";
 
 export type FormProps = z.infer<typeof schemaForm>;
 

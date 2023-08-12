@@ -2,9 +2,9 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
 import { useCallback, useEffect } from "react";
 import { useForm } from "react-hook-form";
-import { zipCodeMask } from "../../constants/masks";
-import { schemaForm } from "./schema";
-import { AddressProps, FormProps } from "./types";
+import { zipCodeMask } from "@/constants/masks";
+import { schemaForm } from "@/components/cep/schema";
+import { AddressProps, FormProps } from "@/components/cep/types";
 
 export const useCep = () => {
   const {

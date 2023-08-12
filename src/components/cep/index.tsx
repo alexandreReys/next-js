@@ -1,6 +1,6 @@
 'use client'
 
-import { useCep } from './useCep';
+import { useCep } from '@/components/cep/useCep';
 
 export default function Team() {
   const { errors, handleFormSubmit, handleSubmit, register, inputStyles, buttonStyles, errorMsgStyles } = useCep();
