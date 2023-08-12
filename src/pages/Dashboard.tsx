@@ -13,7 +13,7 @@ import Cep from '../components/cep'
 const navigation = ['Dashboard', 'Cep', 'Projects', 'Calendar', 'Reports']
 const profile = ['Your Profile', 'Settings']
 
-function classNames(...classes) {
+function classNames(...classes: Array<string | false | undefined | null>) {
   return classes.filter(Boolean).join(' ')
 }
 
